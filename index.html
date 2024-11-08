@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de pessoas</title>
+</head>
+<body>
+    <script>
+        class pessoa{
+            #nome
+            constructor(nome) {
+                this.#nome = nome;
+            }
+            set setNome(nome) {
+                this.#nome = nome;
+            }
+            get getNome(nome) {
+                return this.#nome;
+            }
+            imprimir() {
+                document.getElementById("painel de respostas").innerHTML += "nome: " +this.#nome + "</br>";
+            }
+        }
+        class cadastro{
+            #pessoas
+            constructor() {
+                this.#pessoas = [];
+            }
+            cadastrar() {
+                var opcao;
+            }
+        }
+    </script>>
+</body>
+</html>
